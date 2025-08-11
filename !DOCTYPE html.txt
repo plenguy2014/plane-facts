@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plane Facts</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#87ceeb, #f0f8ff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  header {
+    background: #004080;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .fact-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #004080;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>✈ Amazing Plane Facts</h1>
+  <p>Explore fascinating aviation trivia!</p>
+</header>
+
+<section class="facts">
+  <div class="fact-card">The Wright brothers' first flight in 1903 lasted only 12 seconds.</div>
+  <div class="fact-card">The Airbus A380 is the largest passenger plane in the world.</div>
+  <div class="fact-card">Black boxes are actually bright orange for visibility.</div>
+  <div class="fact-card">Some fighter jets can exceed the speed of sound.</div>
+  <div class="fact-card">The Concorde could cross the Atlantic in under 3 hours.</div>
+</section>
+
+<footer>
+  &copy; 2025 PlaneFacts.com
+</footer>
+
+</body>
+</html>
